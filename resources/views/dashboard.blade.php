@@ -1,2 +1,2 @@
 ini dashboard
-<a href="/login" >Kembali</a>
+<a href="/login" >Kembali Ke Alam Baka</a>
