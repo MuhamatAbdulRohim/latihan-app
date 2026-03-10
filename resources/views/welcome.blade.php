@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Laravel Frame</title>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">
@@ -122,12 +122,15 @@
                     <div class="text-center text-sm sm:text-left">
                         &nbsp;
                     </div>
-
-                    <div class="text-center text-sm text-gray-500 dark:text-gray-400 sm:text-right sm:ml-0">
-                        Laravel v{{ Illuminate\Foundation\Application::VERSION }} (PHP v{{ PHP_VERSION }})
-                    </div>
                 </div>
             </div>
         </div>
     </body>
+    <footer>
+        <div class="bg-gray-800 text-white py-6">
+            <div class="container mx-auto px-4">
+                <p class="text-center">&copy; 2023 Laravel Frame. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
 </html>

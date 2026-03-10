@@ -15,9 +15,11 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/login', function () {
+    return view('form_login');
+});
+Route::get('/dashboard', function () {
+    return view('dashboard');
 });
 
 Route::get('/halo-maba-sti', [\App\Http\Controllers\PenggunaController::class, 'index']);
