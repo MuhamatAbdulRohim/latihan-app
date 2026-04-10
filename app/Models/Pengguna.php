@@ -10,12 +10,7 @@ class Pengguna extends Model
 {
     use HasFactory;
 
-    protected $table = 'pengguna';
+    protected $table = 'public.pengguna';
     protected $fillable = ['email', 'password'];
     protected $primaryKey = 'id';
-
-    public function getPengguna()
-    {
-        return DB::select("SELECT * FROM pengguna");
-    }
 }

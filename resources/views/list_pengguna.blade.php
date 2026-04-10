@@ -6,7 +6,7 @@
 <p>ini paragraf</p>
 <ul>
     @foreach($pengguna as $item)
-        <li>{{$item->nama}} ({{$item->hoby}}) - {{$item->created_at}}</li>
+        <li>{{$item->email}} ({{$item->password}})</li>
     @endforeach
 </ul>
 </body>
